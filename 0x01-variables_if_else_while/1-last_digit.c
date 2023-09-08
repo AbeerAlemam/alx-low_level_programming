@@ -5,9 +5,9 @@
 /**
  * main - entry point
  *
- * Description: check and print the last digit is greater,is zero or less
+ * Description: check and print the last digit is greater,is zero or less.
  *
- * Return : 0 (success)
+ * Return: 0 (success)
 */
 
 int main(void)
