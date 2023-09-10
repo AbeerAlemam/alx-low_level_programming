@@ -13,13 +13,11 @@ int main(void)
 	char ch = 'a';
 	char CH = 'A';
 
-	/*prints a - z*/
 	while (ch <= 'z')
 	{
-		putchgar(ch);
+		putchar(ch);
 		ch++;
 	}
-	/*print A - Z*/
 	while (CH <= 'Z')
 	{
 		putchar(CH);
