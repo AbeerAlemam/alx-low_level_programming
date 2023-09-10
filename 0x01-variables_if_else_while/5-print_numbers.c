@@ -1,10 +1,9 @@
-
 #include <stdio.h>
 
 /**
  * main - entry point
  *
- * Description: prints all alphabet do not prints q,e.
+ * Description: prints all single digit numbers of base 10 starting from 0.
  *
  * Return: Always 0 (success)
 */
@@ -16,7 +15,7 @@ int main(void)
 	while (digit <= 9)
 	{
 		printf("%i", digit);
-		digit++
+		digit++;
 	}
 	printf("\n");
 
