@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs is a function calculates the abs of n
+ * _abs - function calculates the abs of n
  *
  * @n: takes intger type input for function.
  *
