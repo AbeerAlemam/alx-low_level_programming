@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_sign function to print sign of number
+ * print_sign - function to print sign of number
  *	0 if zero.
  *
- * @c: takes intger type input for function.
+ * @n: takes intger type input for function.
  *
  * Return: 1 if +, 0 if 0 and -1 if -
 */
