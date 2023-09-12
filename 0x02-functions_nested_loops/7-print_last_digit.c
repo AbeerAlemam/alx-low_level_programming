@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _abs : function computes the abs of a number.
+ * print_last_digit - print last digit of a number.
  *
- * c takes intger type input for function.
+ * @n: takes number input
  *
- * Return: Always 0 (success)
+ * Return: lastDigit
 */
 
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 	int lastDigit;
 
