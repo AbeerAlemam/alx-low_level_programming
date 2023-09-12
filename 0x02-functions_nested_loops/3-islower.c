@@ -2,11 +2,11 @@
 
 /**
  * _islower - function to check if
- * character is lowercase
+ *	 character is lowercase
  *
- * 0c: checks input of function
+ * @c: checks input of function
  *
- * Return: returns ! if 'c' is lowercase
+ * Return: returns 1 if 'c' is lowercase
  *		otherwise always 0 (success)
 */
 
