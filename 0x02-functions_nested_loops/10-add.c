@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * Description add: adds the integers a b
- * a: first input
- * b: second input
+ * add - adds two integers a b
+ *
+ * @a: first input
+ * @b: second input
  *
 */
 
