@@ -8,7 +8,7 @@
 */
 
 void print_line(int n)
-}
+{
 	int lnChr;
 
 	if (n <= 0)
