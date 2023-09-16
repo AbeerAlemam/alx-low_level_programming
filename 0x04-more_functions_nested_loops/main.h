@@ -1,3 +1,6 @@
+#ifndef MAIM_H
+#define MAIM_H
+
 #include <stdio.h>
 
 int _putchar(char c);
