@@ -8,7 +8,7 @@
  */
 int _atoi(char *s)
 {
-	unsigned in num = 0;
+	unsigned int num = 0;
 	int sign = 1;
 
 	do {
