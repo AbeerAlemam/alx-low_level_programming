@@ -7,6 +7,7 @@
  *
  * Return: Alwats 0 (success)
 */
+
 int main(void)
 {
 	int sum;
@@ -20,5 +21,5 @@ int main(void)
 		putchar(c);
 	}
 	putchar(2772 - sum);
-	return (0);
+	return(0);
 }
