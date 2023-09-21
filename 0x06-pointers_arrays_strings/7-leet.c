@@ -9,7 +9,7 @@
 char *leet(char *c)
 {
 	char *cp = c;
-	char key[] = {'A', 'E', 'O', 'T', 'L');
+	char key[] = {'A', 'E', 'O', 'T', 'L'};
 	int value[] = {4, 3, 0, 7, 1};
 	unsigned int i;
 
