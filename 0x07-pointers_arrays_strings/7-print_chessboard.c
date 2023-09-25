@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * void print_chessboard - a function that prints the chessboard
+ * print_chessboard - a function that prints the chessboard
  *
- * @s: row size
- * 
+ * @a: row size
 */
 
-char *_strpbrk(char *s, char *accept)
+void print_chessboard(char (*a)[8])
 {
 	int i, j;
 
