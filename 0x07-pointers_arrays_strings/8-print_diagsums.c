@@ -2,7 +2,7 @@
 
 /**
  * print_diagsums - a function that prints the sum of the two
- *	diagonals of a square matrix of integers
+ * diagonals of a square matrix of integers
  *
  * @a: two diagonals of a square matrix of integers
  * @size: size of array
@@ -19,5 +19,5 @@ void print_diagsums(int *a, int size)
 		a += size;
 	}
 	printf("%d, ", x);
-	printf("%d, ", y);
+	printf("%d\n", y);
 }
