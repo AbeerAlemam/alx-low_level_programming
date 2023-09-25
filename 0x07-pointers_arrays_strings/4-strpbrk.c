@@ -5,7 +5,7 @@
  *
  * @s: string
  * @accept: a string that match
- * Returns: pointer to the byte in s that matches
+ * Return: pointer to the byte in s that matches
  * one of the bytes in accept, or NULL if no
  * such byte is found
 */
