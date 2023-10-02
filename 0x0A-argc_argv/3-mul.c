@@ -63,11 +63,11 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	m1 = _atoi(argv[1]);
-	m2 = _atoi(argv[2]);
+	n1 = _atoi(argv[1]);
+	n2 = _atoi(argv[2]);
 	r = n1 * n2;
 
-	printf("%d\n", result);
+	printf("%d\n", r);
 
 	return (0);
 }
