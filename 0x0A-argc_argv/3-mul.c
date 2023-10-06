@@ -2,39 +2,38 @@
 #include "main.h"
 
 /**
- * _atoi - it convert string to an intger
- * @s: string to be convrted
- * Return: string
-*/
-
+ * _atoi - converts a string to an integer
+ * @s: string to be converted
+ *
+ * Return: the int converted from the string
+ */
 int _atoi(char *s)
 {
-	int i, b, m, l, f, dig;
+	int i, d, n, len, f, digit;
 
 	i = 0;
-	b = 0;
-	m = 0;
-	l = 0;
+	d = 0;
+	n = 0;
+	len = 0;
 	f = 0;
-	dig = 0;
+	digit = 0;
 
-	while (s[l] != '\0')
-		l++;
+	while (s[len] != '\0')
+		len++;
 
-	while (i < l && f == 0)
+	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
-			++b;
+			++d;
 
 		if (s[i] >= '0' && s[i] <= '9')
 		{
-			dig = s[i] - '0';
+			digit = s[i] - '0';
 			if (d % 2)
-				dig = -dig;
-			m = m * 10 + dig;
-			f - 1;
+				digit = -digit;
+			n = n * 10 + digit;
+			f = 1;
 			if (s[i + 1] < '0' || s[i + 1] > '9')
-
 				break;
 			f = 0;
 		}
@@ -43,19 +42,20 @@ int _atoi(char *s)
 
 	if (f == 0)
 		return (0);
-	return (m);
+
+	return (n);
 }
 
 /**
- * main -  a program that multiplies two numbers
- * @argc: int
- * @argv: list (array)
+ * main - multiplies two numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
  * Return: 0 (Success), 1 (Error)
-*/
-
+ */
 int main(int argc, char *argv[])
 {
-	int r, n1, n2;
+	int result, num1, num2;
 
 	if (argc < 3 || argc > 3)
 	{
@@ -63,11 +63,11 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	n1 = _atoi(argv[1]);
-	n2 = _atoi(argv[2]);
-	r = n1 * n2;
+	num1 = _atoi(argv[1]);
+	num2 = _atoi(argv[2]);
+	result = num1 * num2;
 
-	printf("%d\n", r);
+	printf("%d\n", result);
 
 	return (0);
 }
