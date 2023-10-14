@@ -7,6 +7,7 @@
  * previously created by your alloc_grid function
  * @grid: 2d grid
  * @height: height of grid
+ * Description: frees grid's memory
  * Return: nothing
  *
  */
