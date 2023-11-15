@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - a function that check prime number
+ * is_prime_number - it is a function that check prime number
  *
- * @n: intger
- * @othrn: intger
+ * @n: refer to intger
+ * @othrn: refer to intger
  * Return: 0 or 1 for prime intger
  *
 */
@@ -19,8 +19,8 @@ int is_prime_number(int n)
 /**
  * check_prime - a function that check numbers if the number is prime
  *
- * @n: intger
- * @othrn: intger
+ * @n: it refer intger
+ * @othrn: it refer to intger
  * Return: 0 or 1 for prime intger
  *
 */
@@ -35,4 +35,3 @@ int check_prime(int n, int othrn)
 	else
 		return (check_prime(n, othrn + 1));
 }
-

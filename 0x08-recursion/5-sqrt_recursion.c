@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - a function that returns
+ * _sqrt_recursion - it is a function that returns
  *	the natural square root of a number
- * @n: intger
- * @val: root
+ * @n: it refer to intger
+ * @val: the value of the root
  * Return: intger
  *
 */
@@ -16,10 +16,10 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * square - a function that give the squar root
- * @n: intger
- * @val: root
- * Return: intger
+ * square - it is a function that give the squar root
+ * @n: refer to intger
+ * @val: refer to root
+ * Return: to intger
  *
 */
 
